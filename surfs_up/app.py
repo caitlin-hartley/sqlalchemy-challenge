@@ -26,16 +26,12 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(autoload_with=engine)
 
-# reflect an existing database into a new model
-
-# reflect the tables
-
-
 # Save references to each table
-
+Station = Base.classes.station
+Measurement = Base.classes.measurement
 
 # Create our session (link) from Python to the DB
-
+session = Session(engine)
 
 #################################################
 # Flask Setup
