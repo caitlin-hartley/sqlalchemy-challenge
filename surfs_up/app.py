@@ -171,9 +171,9 @@ def get_temps_start(start):
     temperatures = []
     for min_temp, avg_temp, max_temp in results:
         temp_dict = {}
-        temp_dict['min temp'] = min_temp
-        temp_dict['avg temp'] = avg_temp
-        temp_dict['max_temp'] = max_temp
+        temp_dict['TMIN'] = min_temp
+        temp_dict['TAVG'] = avg_temp
+        temp_dict['TMAX'] = max_temp
         temperatures.append(temp_dict)
 
 
@@ -210,9 +210,9 @@ def get_temps_start_end(start, end):
     temperatures = []
     for min_temp, avg_temp, max_temp in results:
         temp_dict = {}
-        temp_dict['min temp'] = min_temp
-        temp_dict['avg temp'] = avg_temp
-        temp_dict['max_temp'] = max_temp
+        temp_dict['TMIN'] = min_temp
+        temp_dict['TAVG'] = avg_temp
+        temp_dict['TMAX'] = max_temp
         temperatures.append(temp_dict)
 
 
