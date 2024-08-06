@@ -156,7 +156,7 @@ def get_temps_start(start):
     # Create session
     session = Session(engine)
 
-    # Query min, avg, max temps
+    # Query min, avg, max temps from start date till end of dataset
     results = session.query(
         func.min(Measurement.tobs).label('min_temp'),
         func.avg(Measurement.tobs).label('avg_temp'),
@@ -194,7 +194,7 @@ def get_temps_start_end(start, end):
     # Create session
     session = Session(engine)
 
-    # Query min, avg, max temps
+    # Query min, avg, max temps, filtered by start and end date input from user
     results = session.query(
         func.min(Measurement.tobs).label('min_temp'),
         func.avg(Measurement.tobs).label('avg_temp'),
@@ -206,7 +206,7 @@ def get_temps_start_end(start, end):
     # Close session
     session.close()
     
-    # Construct a list of dictionaries with temperature data
+    # Construct a list of dictionaries with temperature data from date range
     temperatures = []
     for min_temp, avg_temp, max_temp in results:
         temp_dict = {}
