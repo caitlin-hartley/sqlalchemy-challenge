@@ -23,3 +23,9 @@ Use Python and SQLAlchemy to do a basic climate analysis and data exploration of
 ---
 
 ### Precipitation Analysis
+
+- Find the most recent date in the dataset
+- Get the previous 12 months of precipitation data by querying the previous 12 months of data
+- Load the query results into a dataframe
+- Sort the DataFrame values by "date"
+- Plot the results
