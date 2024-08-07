@@ -4,7 +4,7 @@
 
 [Part 1: Station Analysis](README.md#station-analysis)
 
-[Part 2: Climate App]
+[Part 2: Climate App](README.md#part-2-design-climate-app)
 
 ---
 
