@@ -33,7 +33,8 @@ Use Python and SQLAlchemy to do a basic climate analysis and data exploration of
 ![Precipitation](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/precipitation.png)
 
 - Print summary stats
-  
+
+![Summary_stats](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/sum_stats.png)
 ---
 
 ### Station Analysis
