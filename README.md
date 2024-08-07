@@ -30,16 +30,16 @@ Use Python and SQLAlchemy to do a basic climate analysis and data exploration of
 - Sort the DataFrame values by "date"
 - Plot the results
 
-![Precipitation]
+![Precipitation](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/precipitation.png)
 
 ### Station Analysis
 
 - Query to calculate the total number of stations in the dataset
 - Query to find the most-active stations
 
-![Query]
+![Query](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/example_query.png)
 
 - Query the previous 12 months of TOBS data for that station
 - Plot the results
 
-![Station]
+![Station](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/station.png)
