@@ -1,7 +1,5 @@
 # sqlalchemy-challenge
 
----
-
 [Part 1: Precipitation Analysis]
 
 [Part 1: Station Analysis]
@@ -14,5 +12,6 @@
 
 - Use Python and SQLAlchemy to do a basic climate analysis and data exploration of climate database
 
---
+---
+
 ### Precipitation Analysis
