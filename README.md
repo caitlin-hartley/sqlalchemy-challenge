@@ -2,7 +2,7 @@
 
 [Part 1: Precipitation Analysis](README.md#precipitation-analysis)
 
-[Part 1: Station Analysis]
+[Part 1: Station Analysis](README.md#station-analysis)
 
 [Part 2: Climate App]
 
@@ -31,6 +31,8 @@ Use Python and SQLAlchemy to do a basic climate analysis and data exploration of
 - Plot the results
 
 ![Precipitation](https://github.com/caitlin-hartley/sqlalchemy-challenge/blob/main/output/precipitation.png)
+
+---
 
 ### Station Analysis
 
