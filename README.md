@@ -1,6 +1,6 @@
 # sqlalchemy-challenge
 
-[Part 1: Precipitation Analysis]
+[Part 1: Precipitation Analysis](README.md#precipitation-analysis)
 
 [Part 1: Station Analysis]
 
